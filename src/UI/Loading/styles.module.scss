@@ -5,14 +5,14 @@
   height: 50vh;
 }
 
-.loader {
+/*.loader {
   width: 70px;
   height: 70px;
   border-right: 4px solid #016c73;
   border-radius: 100%;
-  animation: spinRight 800ms linear infinite;
+  animation: spinRight 800ms linear infinite;}
 
-  &:before,
+  /*&:before,
   &:after {
     content: "";
     width: 50px;
@@ -57,4 +57,4 @@
 
 .full_height {
   height: 100vh;
-}
+}*/
