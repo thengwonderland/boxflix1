@@ -25,7 +25,7 @@ const Navbar = () => {
   const activeLink = (link) => {
     switch (pathname) {
       case link: {
-        return "#1976d2";
+        return "#016c73";
       }
       default:
         return "#fff";
@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div className={s.navbar}>
       <Link to={"/"} title="Home" className={s.link}>
-        <AiOutlineHome color={pathname === "/" ? "#1976d2" : "#fff"} />
+        <AiOutlineHome color={pathname === "/" ? "#016c73" : "#fff"} />
       </Link>
       <button title="Search" className={s.link} onClick={handleToggleSearch}>
         <AiOutlineSearch color={activeLink("search")} />
