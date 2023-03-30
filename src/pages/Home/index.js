@@ -44,7 +44,7 @@ const Home = () => {
       <Popular />
       <TopRated />
 
-      <div className="footer">Boxflix project 2023</div>
+      <div className="footer">Boxflix | All rights reserved.</div>
     </Layout>
   );
 };
